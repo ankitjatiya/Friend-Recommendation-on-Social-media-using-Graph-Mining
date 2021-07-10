@@ -4,16 +4,16 @@ This is a Machine Learning Project which recommends  friends by using link predi
 
 **Data**
 
-1. Data was obtained from kaggle. Link for data https://www.kaggle.com/c/FacebookRecruiting.
-2. This is a graph data.
-3. The data only contains list of nodes which have edge between them or y=1.
-4. For the given dataset, there are approx 1.86M nodes and 9.43M edges.
+      1. Data was obtained from kaggle. Link for data https://www.kaggle.com/c/FacebookRecruiting.
+      2. This is a graph data.
+      3. The data only contains list of nodes which have edge between them or y=1.
+      4. For the given dataset, there are approx 1.86M nodes and 9.43M edges.
 
 **Training Data preparation**
 
-1. The data was highly imbalanced as only one class label was present.
-2. For another class label i.e for links which are not present in the graph(y=0) we randomly sampled it.
-3. The training and test data was exactly balanced.
+      1. The data was highly imbalanced as only one class label was present.
+      2. For another class label i.e for links which are not present in the graph(y=0) we randomly sampled it.
+      3. The training and test data was exactly balanced.
 
 
 **Exploratory data analysis was done on the data.**
@@ -62,4 +62,4 @@ Featurization was done based on following measures:
      1.  Understanding of graph and feature engineering was the most important part of this project.
      2.  For Random Forest, Follow_back was the most important feature found, followed by weight, inter_follower and shortest_path.
      3.  For XGBOOST, follows_back was the most important feature. Followed by cosine_follower and weight_f1.
-     4.  XGBoost produce better results.
+     4.  XGBoost produced better results.
