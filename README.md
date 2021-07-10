@@ -47,7 +47,7 @@ Featurization was done based on following measures:
       5. SVD features using adjacency matrix.(no. of components: 6)
       
       
-**Two models were trained: **
+**Two models were trained:**
 
       - Random Forest
       - XG Boost
